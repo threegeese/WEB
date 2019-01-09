@@ -2,7 +2,7 @@
 * 实现一个函数，第一个参数是待摧毁的数组，其余的参数是待摧毁的值。
 * https://freecodecamp.cn/challenges/seek-and-destroy
 */
-function destroyer() {
+function destroyer(arr) {
     var argument = arguments;
     var result = arr.filter(function(ele,index){
         var bool = true;
