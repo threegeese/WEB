@@ -4,7 +4,7 @@
 */
 function destroyer(arr) {
     var argument = arguments;
-    var result = arr.filter(function(ele,index){
+    var result = arr.filter(function(ele){
         var bool = true;
         for(var i = 1; i < argument.length; i++){
             if(ele === argument[i]){
