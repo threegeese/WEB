@@ -34,6 +34,4 @@ function sym(args){
             return init;
         },[]);      
     }
-
-
 }
