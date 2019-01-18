@@ -1,1 +1,1 @@
-# [web]{https://threegeese.github.io/WEB/}
+# [web](https://threegeese.github.io/WEB/)
