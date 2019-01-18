@@ -11,5 +11,5 @@ window.onload = countBodyChildren();
 
 function countBodyChildren(){
   var body_ele = document.getElementsByTagName("body")[0];
-  alert(body_ele.childNodes.length);
+  //alert(body_ele.childNodes.length);
 }
