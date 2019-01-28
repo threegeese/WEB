@@ -2,8 +2,8 @@ var fs = require('fs');
 var dirName = process.argv[2];
 
 if(dirName === undefined){
-	console.log("Please input a directory!");
-	process.exit(0);
+    console.log("Please input a directory!");
+    process.exit(0);
 }
 
 var htmlContants = "<!DOCTYPE>\n<title>Hello</title>\n<h1>Hi</h1>";
