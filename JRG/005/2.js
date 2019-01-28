@@ -1,6 +1,11 @@
 var fs = require('fs');
 var dirName = process.argv[2];
 
+if(dirName === undefined){
+	console.log("Please input a directory!");
+	process.exit(0);
+}
+
 var htmlContants = "<!DOCTYPE>\n<title>Hello</title>\n<h1>Hi</h1>";
 var cssContants = "h1{color: red;}";
 var jsContants = "var string = \"Hello World\"\nalert(string)";
