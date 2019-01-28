@@ -1,9 +1,9 @@
 var fs = require('fs');
 var dirName = process.argv[2];
 
-var htmlContants = "<!DOCTYPE><title>Hello</title><h1>Hi</h1>";
+var htmlContants = "<!DOCTYPE>\n<title>Hello</title>\n<h1>Hi</h1>";
 var cssContants = "h1{color: red;}";
-var jsContants = "var string = \"Hello World\";alert(string)";
+var jsContants = "var string = \"Hello World\"\nalert(string)";
 
 if (fs.existsSync(dirName)){
     console.log("Directory " + dirName + " already exists!");
