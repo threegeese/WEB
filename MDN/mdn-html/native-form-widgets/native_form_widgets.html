@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Native form widgets</title>
+    <style>
+
+        h2 {
+            margin-top: 6px;
+            margin-bottom: 6px;
+        }
+
+        form {
+            width: 420px;
+            height: 320px;
+            float: left;
+            margin-top: 8px;
+            margin-right: 10px;
+            border: 1px solid black;
+        }
+
+        .textarea p {
+            text-align: right;
+            margin-right: 45px;
+        }
+
+        .dropdown div {
+            text-align: right;
+            margin-bottom: 20px;
+            margin-right: 50px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <form class="textarea">
+        <h2>文本输入域</h2>
+        <p>
+            <label for="comment"><em>基本的单行文本域：</em></label>
+            <input type="text" id="comment" name="comment" value="I'm a text field">
+        </p>
+        <p>
+            <label for="email"><em>E-mail 地址域：</em></label>
+            <input type="email" id="email" name="email" multiple>
+        </p>
+        <p>
+            <label for="pwd"><em>密码域：</em></label>
+            <input type="password" id="pwd" name="pwd">
+        </p>
+        <p>
+            <label for="search"><em>搜索域：</em></label>
+            <input type="search" id="search" name="search">
+        </p>
+        <p>
+            <label for="tel"><em>电话号码域：</em></label>
+            <input type="tel" id="tel" name="tel">
+        </p>
+        <p>
+            <label for="url"><em>URL域：</em></label>
+            <input type="url" id="url" name="url">
+        </p>
+        <p>
+            <label for="textarea"><em>多行文本域：</em></label>
+            <textarea cols="22" rows="1"></textarea>
+        </p>>
+    </form>
+    
+    <form class="dropdown">
+        <h2>下拉内容</h2>
+        <div>
+            <label for="select">选择框：</label>
+            <select id="groups" name="groups">
+                <optgroup label="fruits">
+                    <option>Banana</option>
+                    <option selected>Cherry</option>
+                    <option>Lemon</option>
+                </optgroup>
+                <optgroup label="vegetables">
+                    <option>Carrot</option>
+                    <option>Eggplant</option>
+                    <option>Potato</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="multiSelect">多选选择框：</label>
+            <select multiple id="multi" name="multi">
+                <option>Banana</option>
+                <option>Cherry</option>
+                <option>Lemon</option>
+                <option>Apple</option>
+                <option>Orange</option>
+                <option>Watermelon</option>
+                <option>Pear</option>
+            </select>
+        </div>
+        <div>
+            <label for="myFruit">自动补全输入框：</label>
+            <input type="text" name="myFruit" id="myFruit" list="mySuggestion">
+            <datalist id="mySuggestion">
+                <option>Apple</option>
+                <option>Banana</option>
+                <option>Blackberry</option>
+                <option>Blueberry</option>
+                <option>Lemon</option>
+                <option>Lychee</option>
+                <option>Peach</option>
+                <option>Pear</option>
+            </datalist>
+        </div>
+    </form>
+    
+    <form class="">
+        <h2>可选中框</h2>
+
+
+    </form>
+
+
+
+    <form class="">
+        <h2>按钮</h2>
+    </form>
+
+
+    <form class="">
+        <h2>高级表单部件</h2>
+    </form>
+
+
+    <form class="">
+        <h2>其它小部件</h2>
+    </form>
+    
+</body>
+</html>
