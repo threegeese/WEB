@@ -38,7 +38,7 @@
         <p>
             <label for="textarea"><em>多行文本域：</em></label>
             <textarea cols="22" rows="1"></textarea>
-        </p>>
+        </p>
     </form>
     
     <form class="dropdown">
@@ -86,18 +86,71 @@
         </div>
     </form>
     
-    <form class="">
+    <form class="checkedItem">
         <h2>可选中框</h2>
-
-
+        <fieldset>
+            <legend>复选框</legend>
+            <ul>
+                <li>
+                    <label for="carrots">Carrots</label>
+                    <input type="checkbox" checked id="carrots" name="carrots" value="carrots">
+                </li>
+                <li>
+                    <label for="peas">Peas</label>
+                    <input type="checkbox" id="peas" name="peas" value="peas">
+                </li>
+                <li>
+                    <label for="cabbage">Cabbage</label>
+                    <input type="checkbox" id="cabbage" name="cabbage" value="cabbage">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>单选按钮</legend>
+            <ul>
+                <li>
+                    <label for="soup">Soup</label>
+                    <input type="radio" checked id="soup" name="meal" value="soup">
+                </li>
+                <li>
+                    <label for="curry">Curry</label>
+                    <input type="radio" id="curry" name="meal" value="curry">
+                </li>
+                <li>
+                    <label for="pizza">Pizza</label>
+                    <input type="radio" id="pizza" name="meal" value="pizza">
+                </li>
+            </ul>
+        </fieldset>
     </form>
 
-
-
-    <form class="">
+    <form class="nativeButton">
         <h2>按钮</h2>
+        <p>
+            <button type="submit">
+                This a <br><strong>submit button</strong>
+            </button>
+        </p>
+        <p>
+            <input type="submit" value="This is a submit button">
+        </p>
+        <p>
+            <button type="reset">
+                This a <br><strong>reset button</strong>
+            </button>
+        </p>
+        <p>
+            <input type="reset" value="This is a reset button">
+        </p>
+        <p>
+            <button type="button">
+                This an <br><strong>anonymous button</strong>
+            </button>
+        </p>
+        <p>
+            <input type="button" value="This is an anonymous button">
+        </p>
     </form>
-
 
     <form class="">
         <h2>高级表单部件</h2>
