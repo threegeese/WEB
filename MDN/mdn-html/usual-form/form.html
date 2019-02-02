@@ -18,16 +18,16 @@
                 <legend>Title</legend>
                 <ul>
                     <li>
-                    <label for="title_1">
-                        <input type="radio" id="title_1" name="title" value="M." >
-                        Mister
-                    </label>
+                        <label for="title_1">
+                            <input type="radio" id="title_1" name="title" value="M." >
+                            Mister
+                        </label>
                     </li>
                     <li>
-                    <label for="title_2">
-                        <input type="radio" id="title_2" name="title" value="Ms.">
-                        Miss
-                    </label>
+                        <label for="title_2">
+                            <input type="radio" id="title_2" name="title" value="Ms.">
+                            Miss
+                        </label>
                     </li>
                 </ul>
             </fieldset>
@@ -58,6 +58,7 @@
             <p>
                 <label for="card">
                     <span>Card type:</span>
+                    <strong><abbr title="required">*</abbr></strong>
                 </label>
                 <select id="card" name="usercard">
                     <option value="visa">Visa</option>
@@ -76,7 +77,7 @@
                 <label for="date">
                     <span>Expiration date:</span>
                     <strong><abbr title="required">*</abbr></strong>
-                <em>formatted as mm/yy</em>
+                    <em>formatted as mm/yy</em>
                 </label>
                 <input type="date" id="date" name="expiration">
             </p>
