@@ -43,7 +43,6 @@ a {
     border-bottom: 3px solid #e8676b;
 }
 
-
 .topNavBar .logo {
     font-size: 24px;
     font-family: 'Arial Black';
@@ -57,3 +56,5 @@ a {
 .topNavBar .logo .card {
     color: #9a9da2;
 }
+
+/**/
