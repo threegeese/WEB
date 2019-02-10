@@ -29,23 +29,23 @@
 }
 
 #yin-yang > .one > .circle{
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: 135px;
-    left: 135px;
+    top: 120px;
+    left: 120px;
 }
 
 #yin-yang > .two > .circle {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     background-color: red;
     border-radius: 50%;
     position: absolute;
-    top: 135px;
-    left: 135px;
+    top: 120px;
+    left: 120px;
 }
 
 
