@@ -1,6 +1,6 @@
 # [Web](https://threegeese.github.io/WEB/)
 
-## css
+## CSS
 
 1. [css animation](https://cssanimation.rocks/css-animation-101/)
 2. [30个CSS碎片拼图，30种濒临灭绝动物](http://www.webhek.com/misc-res/species-in-pieces/#)
@@ -8,7 +8,7 @@
 4. [Flex Layout](http://flexbox.malven.co/)
 5. [Grid Layout](http://grid.malven.co/)
 
-## javascript
+## JavaScript
 
 1. [33 concepts every JavaScript developer should know.](https://github.com/leonardomso/33-js-concepts)
 2. [ScriptOJ](http://scriptoj.mangojuice.top/)
