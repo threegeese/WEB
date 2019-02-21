@@ -13,7 +13,7 @@
 1. [33 concepts every JavaScript developer should know.](https://github.com/leonardomso/33-js-concepts)
 2. [ScriptOJ](http://scriptoj.mangojuice.top/)
 3. [The Modern Javascript Tutorial](https://javascript.info/)
-4. []()
+4. [JavaScript: The Good Parts](http://crockford.com/javascript/)
 5. []()
 6. []()
 7. []()
