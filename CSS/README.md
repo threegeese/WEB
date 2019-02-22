@@ -1,4 +1,12 @@
-CSS
+# CSS
+
+* 主流浏览器引擎前缀:
+    - ```-webkit-``` (谷歌, Safari, 新版Opera浏览器等)
+    - ```-moz-``` (火狐浏览器)
+    - ```-o-``` (旧版Opera浏览器等)
+    - ```-ms-``` (IE浏览器 和 Edge浏览器)
+
+## Text
 
 * [writing-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode)
 * [direction](https://developer.mozilla.org/en-US/docs/Web/CSS/direction)
