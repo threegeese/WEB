@@ -8,8 +8,30 @@
 
 ## Text
 
+* [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
+* [text-decoration](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration)
+    - [text-decoration-line](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line), [text-decoration-style](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style), [text-decoration-color](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color)
+* [](https://developer.mozilla.org/en-US/docs/Web/CSS/)
+* [](https://developer.mozilla.org/en-US/docs/Web/CSS/)
+* [](https://developer.mozilla.org/en-US/docs/Web/CSS/)
+* [](https://developer.mozilla.org/en-US/docs/Web/CSS/)
+* [](https://developer.mozilla.org/en-US/docs/Web/CSS/)
+* [](https://developer.mozilla.org/en-US/docs/Web/CSS/)
+
 * [writing-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode)
 * [direction](https://developer.mozilla.org/en-US/docs/Web/CSS/direction)
+
+## Font
+
+* [font](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
+* [font-family](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+* [font-size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
+* [font-style](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style)
+* [font-weight](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)
+* [font-style](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style)
+* []()
+* []()
+
 
 ## Box Model
 
@@ -25,4 +47,12 @@
     - [margin-top](https://developer.mozilla.org/zh-CN/docs/Web/CSS/margin-top), [margin-right](https://developer.mozilla.org/zh-CN/docs/Web/CSS/margin-right), [margin-bottom](https://developer.mozilla.org/zh-CN/docs/Web/CSS/margin-bottom), [margin-left](https://developer.mozilla.org/zh-CN/docs/Web/CSS/margin-left)
 * [overflow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/overflow)
 * [outline](https://developer.mozilla.org/zh-CN/docs/Web/CSS/outline)
-* []()
+
+
+
+
+
+
+
+
+* [opacity](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
