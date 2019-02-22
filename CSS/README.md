@@ -69,11 +69,6 @@
 
 * [box-shadow](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-shadow)
 * [filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter)
-* [](https://developer.mozilla.org/zh-CN/docs/Web/CSS/)
-* [](https://developer.mozilla.org/zh-CN/docs/Web/CSS/)
-* [](https://developer.mozilla.org/zh-CN/docs/Web/CSS/)
-* [](https://developer.mozilla.org/zh-CN/docs/Web/CSS/)
-
 
 ## Background
 
