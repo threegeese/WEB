@@ -1,0 +1,49 @@
+/**
+ * display: table;                 -- <table>
+ * display: inline-table;          -- inline-table
+ * display: table-row-group;       -- <tbody>
+ * display: table-header-group;    -- <thead>
+ * display: table-footer-group;    -- <tfoot>
+ * display: table-row;             -- <tr>
+ * display: table-column-group;    -- <colgroup>
+ * display: table-column;          -- <col>
+ * display: table-cell;            -- <td>,<th>
+ * display: table-caption;         -- <caption>
+ */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.table {
+  display: table;
+  margin: 50px auto;
+}
+
+.table div {
+  display: table-row;
+}
+
+.table label, .table input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+.table label {
+  width: 200px;
+  padding-right: 5%;
+  text-align: right;
+}
+
+.table input {
+  width: 300px;
+}
+
+.table p {
+  display: table-caption;
+  caption-side: bottom;
+  width: 300px;
+  color: #999;
+  font-style: italic;
+}

@@ -8,14 +8,33 @@
     <link rel="stylesheet" href="./flexbox.css">
 </head>
 <body>
-    <p>
-        你是是事实上的阿士东i华东师大和等候的话
-    </p>
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nemo harum voluptatum unde quia, pariatur doloremque non odio minus adipisci temporibus, itaque voluptate tempore reprehenderit molestias sapiente vel, nihil debitis!
-    </p>
-    <p>
+    <div class="parent" id="parent">
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+    <button id="create">create</button>
+    <button id="reset">reset</button>
+    <script type="text/javascript">
+        let parent = document.getElementById("parent")
+        let c = document.getElementById("create");
+        let r = document.getElementById("reset");
         
-    </p>
+        function createBox() {
+            var box = document.createElement('div');
+            box.className = 'child';
+            parent.appendChild(box);
+        }
+
+        c.onclick = createBox;
+
+        r.onclick = function() {
+            while (parent.firstChild) {
+                parent.removeChild(parent.firstChild);
+            }
+            createBox();
+            createBox();
+        }
+
+    </script>
 </body>
 </html>
