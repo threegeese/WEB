@@ -2,8 +2,8 @@
 
 ## HTML
 
-1. <!DOCTYPE>
-2. <head>里的标签
+1. ```<!DOCTYPE>```
+2. ```<head>```标签里的标签
 
 
 ## CSS
