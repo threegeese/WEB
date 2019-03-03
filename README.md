@@ -18,11 +18,13 @@
 
 ## JavaScript
 
-
+1. javascript数据类型
+2. 
 
 ## HTTP
 
-
+1. http状态码
+2. 
 
 
 
