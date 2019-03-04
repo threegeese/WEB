@@ -1,14 +1,4 @@
-# [Web](https://threegeese.github.io/WEB/)
+# [Blog]https://github.com/threegeese/WEB/tree/master/Blog)
 
-1. [css animation](https://cssanimation.rocks/css-animation-101/)
-2. [30个CSS碎片拼图，30种濒临灭绝动物](http://www.webhek.com/misc-res/species-in-pieces/#)
-3. [30 Seconds of CSS](https://30-seconds.github.io/30-seconds-of-css/)
-4. [Flex Layout](http://flexbox.malven.co/)
-5. [Grid Layout](http://grid.malven.co/)
-<br>
-
-1. [33 concepts every JavaScript developer should know.](https://github.com/leonardomso/33-js-concepts)
-2. [ScriptOJ](http://scriptoj.mangojuice.top/)
-3. [The Modern Javascript Tutorial](https://javascript.info/)
-4. [JavaScript: The Good Parts](http://crockford.com/javascript/)
-
+- [前端面试题收集](https://github.com/threegeese/WEB/tree/master/Blog/2019-03-02-web.md)
+- [网站收集](https://github.com/threegeese/WEB/tree/master/Blog/2019-03-04-gather.md)
