@@ -1,0 +1,46 @@
+body {
+  font-family: "Helvetica", "Arial", serif;
+  color: #333;
+  background: #ccc;
+  margin: 1em 5%;
+}
+body h1 {
+  text-align: center;
+  color: #333;
+  text-shadow: 1px 1px 3px #333;
+}
+body ul {
+  text-align: center;
+}
+body ul li {
+  display: inline;
+  list-style: none;
+}
+body a {
+  color: #c60;
+  text-decoration: none;
+}
+
+#imagegallery li a img {
+  width: 20%;
+  heigth: 20%;
+  border: 0;
+  border-radius: 3px;
+  clear: both;
+}
+
+.display {
+  margin-top: 16px;
+  clear: both;
+  text-align: center;
+}
+.display img {
+  border: 5px solid wheat;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 12px;
+}
+.display p {
+  text-align: center;
+  color: #c60;
+  font-family: "Arial", serif;
+}
