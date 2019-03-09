@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#move {
+    width: 100px;
+    height: 100px;
+    background: wheat;
+    border-radius: 50%;
+    position: relative;
+    left: 0;
+}
