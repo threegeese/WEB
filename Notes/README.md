@@ -15,4 +15,4 @@
 
 ## vue
 
-- [新手向：Vue 2.0 的建议学习顺序](https://github.com/threegeese/WEB/blob/master/Notes/vue/vue-learning.md)
+- [新手向：Vue 2.0的建议学习顺序](https://github.com/threegeese/WEB/blob/master/Notes/vue/vue-learning.md)
