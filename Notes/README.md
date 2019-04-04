@@ -5,7 +5,7 @@
 
 ## html
 
-- [文档类型](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-04-doctype.md)
+- [文档类型```DOCTYPE```](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-04-doctype.md)
 - [```head```标签](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-04-head.md)
 - [```meta```标签](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-04-meta.md)
 
