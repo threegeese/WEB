@@ -1,7 +1,7 @@
 ## interview & gather
 
-- [前端知识点总集](https://github.com/threegeese/WEB/tree/master/Notes/interview_gather/2019-03-02-web.md)
-- [网站收集](https://github.com/threegeese/WEB/tree/master/Notes/interview_gather/2019-03-04-gather.md)
+- [前端知识点总集](https://github.com/threegeese/WEB/tree/master/Notes/2019-03-02-web.md)
+- [网站收集](https://github.com/threegeese/WEB/tree/master/Notes/2019-03-04-gather.md)
 
 ## css
 
@@ -16,4 +16,4 @@
 
 ## vue
 
-- [新手向：Vue 2.0 的建议学习顺序](https://github.com/threegeese/WEB/blob/master/Notes/vue/vue-learning.md)
+- [新手向：Vue 2.0 的建议学习顺序](https://github.com/threegeese/WEB/blob/master/Notes/vue-learning.md)
