@@ -14,9 +14,13 @@
 ## css
 
 - [css属性记录](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-15-cssp.md)
+- [选择器及权重]()
 
 ## js
 
+## ES 6
+
+[let与const](https://github.com/threegeese/WEB/tree/master/Notes/2019-04)
 
 ## jQuery
 
