@@ -14,7 +14,8 @@
 ## css
 
 - [css属性记录](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-15-cssp.md)
-- [选择器及权重](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-16-csssel.md)
+- [选择器与优先级](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-16-csssel.md)
+- [数值与单位](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-17-cssvu.md)
 
 ## js
 
