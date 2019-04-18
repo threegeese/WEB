@@ -6,6 +6,7 @@
 ## html
 
 - [文档类型```DOCTYPE```](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-04-doctype.md)
+- [标签](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-)
 - [```head```标签](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-04-head.md)
     - [深入 head 标签（一）](https://zhuanlan.zhihu.com/p/34918296)
     - [深入 head 标签（二）](https://zhuanlan.zhihu.com/p/56920476)     --来源知乎
@@ -18,6 +19,8 @@
 - [数值、单位、颜色](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-17-cssvuc.md)
 
 ## js
+
+- [DOM](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-)
 
 ## ES 6
 
