@@ -26,7 +26,7 @@
 
 ## ES 6
 
-[let与const](https://github.com/threegeese/WEB/tree/master/Notes/2019-04)
+- [let与const](https://github.com/threegeese/WEB/tree/master/Notes/2019-04)
 
 ## http
 
