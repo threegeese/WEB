@@ -1,6 +1,6 @@
 ## interview & gather
 
-- [前端知识点总集](https://github.com/threegeese/WEB/tree/master/Notes/2019-03-02-web.md)
+- [前端知识点收集](https://github.com/threegeese/WEB/tree/master/Notes/2019-03-02-web.md)
 - [网站收集](https://github.com/threegeese/WEB/tree/master/Notes/2019-03-04-gather.md)
 
 ## html
@@ -18,10 +18,11 @@
 - [选择器与优先级](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-16-csssel.md)
 - [数值、单位、颜色](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-17-cssvuc.md)
 - [盒模型](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-26-bmodel.md)
+- [position、float、z-index](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-2)
 
 ## js
 
-- [作用域、垃圾回收](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-)
+- [作用域、立即执行函数、闭包、垃圾回收](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-)
 - [DOM](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-)
 
 ## ES 6
@@ -30,10 +31,7 @@
 
 ## http
 
-## jQuery
 
-
-
-## vue
+## framework 
 
 - [新手向：Vue 2.0 的建议学习顺序](https://github.com/threegeese/WEB/blob/master/Notes/vue-learning.md)
