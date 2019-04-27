@@ -22,7 +22,7 @@
 
 ## js
 
-- [作用域、立即执行函数、闭包、垃圾回收](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-)
+- [作用域、立即执行函数、闭包](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-)
 - [DOM](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-)
 
 ## ES 6
