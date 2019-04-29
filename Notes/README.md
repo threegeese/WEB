@@ -19,6 +19,7 @@
 - [数值、单位、颜色](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-17-cssvuc.md)
 - [盒模型](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-26-bmodel.md)
 - [position、float、z-index](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-2)
+- [border、border-radius绘制各种形状](https://github.com/threegeese/WEB/tree/master/Notes/2019-0)
 
 ## js
 
@@ -31,7 +32,8 @@
 
 ## http
 
+- [网络基础](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-28-netw.md)
 
-## framework 
+## framework
 
 - [新手向：Vue 2.0 的建议学习顺序](https://github.com/threegeese/WEB/blob/master/Notes/vue-learning.md)
