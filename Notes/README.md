@@ -26,7 +26,7 @@
 ## js
 
 - [作用域、立即执行函数、闭包](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-27-zcg.md)
-- [](https://github.com/threegeese/WEB/tree/master/Notes/2019-05-07-proty.md)
+- [原型与原型链](https://github.com/threegeese/WEB/tree/master/Notes/2019-05-07-proty.md)
 - [Function](https://github.com/threegeese/WEB/tree/master/Notes/2019-05-05-func.md)
 - [DOM](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-)
 - [JSON](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-30-json.md)
