@@ -19,7 +19,7 @@
 - [选择器与优先级](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-16-csssel.md)
 - [数值、单位、颜色](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-17-cssvuc.md)
 - [盒模型](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-26-bmodel.md)
-- [position、float、z-index](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-2)
+- [position、float、z-index](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-30-pfz.md)
 - [border、border-radius绘制各种形状](https://github.com/threegeese/WEB/tree/master/Notes/2019-0)
 
 ## js
