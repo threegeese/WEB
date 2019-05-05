@@ -5,6 +5,7 @@
 
 ## html
 
+- [一个页面从输入 URL 到页面加载显示完成，这个过程中都发生了什么？](https://github.com/threegeese/WEB/tree/master/Notes/2019-05-05-lwp.md)
 - [文档类型```DOCTYPE```](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-04-doctype.md)
 - [标签记录、语义化](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-)
 - [```head```标签](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-04-head.md)
@@ -25,6 +26,8 @@
 ## js
 
 - [作用域、立即执行函数、闭包](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-27-zcg.md)
+- [](https://github.com/threegeese/WEB/tree/master/Notes/2019-05-07-proty.md)
+- [Function](https://github.com/threegeese/WEB/tree/master/Notes/2019-05-05-func.md)
 - [DOM](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-)
 - [JSON](https://github.com/threegeese/WEB/tree/master/Notes/2019-04-30-json.md)
 
