@@ -10,9 +10,11 @@
 <body>
 
   <div id="app">
-    <h2>{{ count }}</h2>
+    <h2>Clicked: {{ count }} times</h2>
     <button @click="increment">+1</button>
     <button @click="decrement">-1</button>
+    <button @click="incrementIfOdd">Increment if odd</button>
+    <button @click="incrementAsync">Increment async</button>
   </div>
 
   <script>
@@ -22,7 +24,13 @@
       },
       mutations: {
         increment: state => state.count += 1,
-        decrement: state => state.count -= 1
+        decrement: state => state.count -= 1,
+        incrementIfOdd: state => (state.count + 1) % 2 === 0 ? state.count++ : ''
+      },
+      actions: {
+        incrementAsync ({ commit }) {
+          setTimeout(() => commit('increment'), 1000)
+        }
       }
     })
 
@@ -32,7 +40,9 @@
       },
       methods: {
         increment: () => store.commit('increment'),
-        decrement: () => store.commit('decrement')
+        decrement: () => store.commit('decrement'),
+        incrementIfOdd: () => store.commit('incrementIfOdd'),
+        incrementAsync: () => store.dispatch('incrementAsync')
       }
     }).$mount('#app')
   </script>
