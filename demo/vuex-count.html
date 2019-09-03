@@ -10,7 +10,7 @@
 <body>
 
   <div id="app">
-    <h2>Clicked: {{ count }} times</h2>
+    <h2>Clicked: {{ count }} times, {{ count }} is {{ evenOrOdd }}.</h2>
     <button @click="increment">+1</button>
     <button @click="decrement">-1</button>
     <button @click="incrementIfOdd">Increment if odd</button>
@@ -21,6 +21,9 @@
     const store = new Vuex.Store({
       state: {
         count: 0
+      },
+      getters: {
+        evenOrOdd: state => state.count % 2 === 0 ? 'even' : 'odd'
       },
       mutations: {
         increment: state => state.count += 1,
@@ -36,7 +39,8 @@
 
     new Vue({
       computed: {
-        count: () => { return store.state.count }
+        count: () => { return store.state.count },
+        evenOrOdd: () => { return store.getters.evenOrOdd }
       },
       methods: {
         increment: () => store.commit('increment'),
