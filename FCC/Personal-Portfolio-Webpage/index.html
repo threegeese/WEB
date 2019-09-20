@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Personal Portfolio Webpage</title>
+  <link rel="shortcut icon" href="./favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!--
+    <ul id="myMenu" class="navbar-nav mr-auto">
+      <li data-menuanchor="firstPage" class="active nav-item>
+        <a href="#firstPage">HomePage</a>
+      </li>
+      <li data-menuanchor="secondPage" class="nav-item">
+        <a href="#secondPage">About</a>
+      </li>
+      <li data-menuanchor="thirdPage" class="nav-item">
+        <a href="#thirdPage">Portfolio</a>
+      </li>
+    </ul>
+  -->
+
+  <svg aria-hidden="true" style="position: absolute; width: 0px; height: 0px; overflow: hidden;"><symbol id="icon-wave" viewBox="0 0 1024 1024"><path d="M998.4 755.2c-160-76.8-102.4-441.6-262.4-550.4C627.2 134.4 537.6 384 505.6 454.4 480 505.6 454.4 563.2 428.8 620.8c-25.6 57.6-44.8 140.8-83.2 44.8C332.8 620.8 300.8 537.6 256 518.4c-147.2-57.6-140.8 153.6-236.8 236.8-32 25.6 0 96 32 64 44.8-38.4 57.6-70.4 83.2-128 76.8-179.2 153.6 19.2 192 96 25.6 51.2 83.2 25.6 102.4-19.2C473.6 678.4 512 582.4 556.8 492.8 576 454.4 595.2 422.4 614.4 384c70.4-134.4 160-32 192 76.8 38.4 128 57.6 307.2 172.8 364.8C1017.6 844.8 1036.8 768 998.4 755.2z" fill="#ffffff"></path></symbol></svg>
+
+  <header class="container">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+        
+        <a class="navbar-brand" href="#">
+          <svg class="icon wave" aria-hidden="true">
+              <use xlink:href="#icon-wave"></use>
+          </svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse offset-md-9" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 diy-nav-link">
+            <li class="nav-item active" data-menuanchor="firstPage">
+              <a class="nav-link" href="#firstPage">HomePage<span class="sr-only">(current)</a>
+            </li>
+            <li class="nav-item" data-menuanchor="secondPage">
+              <a class="nav-link" href="#secondPage">About</a>
+            </li>
+            <li class="nav-item" data-menuanchor="thirdPage">
+              <a class="nav-link" href="#thirdPage">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="fullpage">
+    <div class="section">
+      <div class="text-center">dfdd</div>
+    </div>
+    <div class="section">二</div>
+    <div class="section">
+      <div class="slide">幻灯片 1</div>
+      <div class="slide">幻灯片 2</div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/jquery@3.4.1/dist/jquery.slim.min.js"></script>
+  <script src="https://unpkg.com/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>  <script src="./main.js"></script>
+  <!-- <script src="//at.alicdn.com/t/font_1426886_gvrbnnlx7pk.js"></script> -->
+
+</body>
+</html>
