@@ -16,7 +16,21 @@ $(document).ready(() => {
     //
     keyboardScrolling: true,
 
-
+    onLeave: () => {
+      $(document).ready( () => {
+        let sectionsActive = $('#fullpage > .section')
+        let navItemActive = $('ul.navbar-nav > li')
+        let index = 0
+        for (let i=0; i<sectionsActive.length; i++) {
+          if ($(sectionsActive[i]).hasClass('active')) {
+            index = i
+            break
+          }
+        }
+        $(navItemActive[index]).siblings().removeClass('active')
+        $(navItemActive[index]).addClass('active')
+      })
+    }
   })
 
 	$.fn.fullpage.setAllowScrolling(true)
@@ -25,11 +39,16 @@ $(document).ready(() => {
 
 // ul > li 的 active 类切换问题
 $(document).ready( () => {
-  let changeActive = $('ul.navbar-nav > li')
-  for (let i=0; i<changeActive.length; i++) {
-    changeActive[i].onclick = e => {
-      $(changeActive[i]).siblings().removeClass('active')
-      $(changeActive[i]).addClass('active')
+  let sectionsActive = $('#fullpage > .section')
+  let index = 0
+  for (let i=0; i<sectionsActive.length; i++) {
+    if ($(sectionsActive[i]).has('.active')) {
+      index = i
+      return
     }
+    let navItemActive = $('ul.navbar-nav > li')
+    $(navItemActive[index]).siblings().removeClass('active')
+    $(navItemActive[index]).addClass('active')
   }
 })
+

@@ -26,7 +26,7 @@
 }
 
 .diy-nav-link > .nav-item {
-  transition: all .5s;
+  transition: all 1s;
 }
 
 .diy-nav-link > .nav-item > .nav-link{
