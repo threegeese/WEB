@@ -1,7 +1,7 @@
 /**
  * set fullpages configs
  */
-$(document).ready(function() {
+$(document).ready(() => {
   $('#fullpage').fullpage({
     autoScrolling: true,
     scrollHorizontally: true,
@@ -20,4 +20,16 @@ $(document).ready(function() {
   })
 
 	$.fn.fullpage.setAllowScrolling(true)
+})
+
+
+// ul > li 的 active 类切换问题
+$(document).ready( () => {
+  let changeActive = $('ul.navbar-nav > li')
+  for (let i=0; i<changeActive.length; i++) {
+    changeActive[i].onclick = e => {
+      $(changeActive[i]).siblings().removeClass('active')
+      $(changeActive[i]).addClass('active')
+    }
+  }
 })
