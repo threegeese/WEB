@@ -1,18 +1,23 @@
-/* logo */
-@keyframes wave {
-  from {
-    transform: rotate(30deg)
-  }
-  to {
-    transform: rotate(-30deg)
-  }
-}
 .icon {
   width: 1.5em;
   height: 1.5em;
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
+}
+
+/**
+ * HomePage
+ */
+
+/* logo */
+@keyframes wave {
+  from {
+    transform: rotate(20deg)
+  }
+  to {
+    transform: rotate(-20deg)
+  }
 }
 
 .icon.wave {
@@ -26,6 +31,9 @@
 }
 
 .diy-nav-link > .nav-item {
+  font-family: fantasy, serif;
+  font-size: 0.9em;
+  box-sizing: border-box;
   transition: all 1s;
 }
 
@@ -35,10 +43,56 @@
 
 .diy-nav-link > .nav-item > .nav-link:hover{
   color: #fbfbfb;
-  font-size: 1.2em
+  font-size: 1.1em
 }
 
 .diy-nav-link > .nav-item.active{
   color: #fbfbfb;
   border-bottom: 1px solid #fff;
+}
+
+/* homepage codeWrapper */
+#codeWrapper {
+  padding: 20px;
+}
+
+/**
+ * AboutPage
+ */
+img.avatar {
+  width: 6em;
+  height: 6em;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+}
+
+img.avatar:hover,
+img.avatar:active {
+  transform: rotate(666turn);
+  transition-delay: 1s;
+  transition-property: all;
+  transition-duration: 59s;
+  transition-timing-function: cubic-bezier(.34, 0, .84, 1);
+}
+
+.about, .skills {
+  padding: 2% 10%;
+  margin-top: 4%;
+}
+
+.skills > h3 {
+  margin-bottom: 20px;
+}
+
+.skills ul,
+.skills li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.about-content {
+  color: #eee;
+  font-size: 1.2em;
+  font-family: sans-serif, serif;
 }

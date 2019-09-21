@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Personal Portfolio Webpage</title>
+  <title>qianjh</title>
   <link rel="shortcut icon" href="./favicon.png" type="image/png">
   <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.3.1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css">
+  <link rel="stylesheet" href="./highlight/prism.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -18,7 +19,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
       <div class="container">
         
-        <a class="navbar-brand" href="./">
+        <a class="navbar-brand" href="#firstPage">
           <svg class="icon wave" aria-hidden="true">
               <use xlink:href="#icon-wave"></use>
           </svg>
@@ -30,13 +31,16 @@
         <div class="collapse navbar-collapse offset-md-9" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0 diy-nav-link">
             <li class="nav-item" data-menuanchor="firstPage">
-              <a class="nav-link" href="#firstPage">HomePage</a>
+              <a class="nav-link" href="#firstPage">首页</a>
             </li>
             <li class="nav-item" data-menuanchor="secondPage">
-              <a class="nav-link" href="#secondPage">About</a>
+              <a class="nav-link" href="#secondPage">介绍</a>
             </li>
             <li class="nav-item" data-menuanchor="thirdPage">
-              <a class="nav-link" href="#thirdPage">Portfolio</a>
+              <a class="nav-link" href="#thirdPage">作品</a>
+            </li>
+            <li class="nav-item" data-menuanchor="fourthPage">
+              <a class="nav-link" href="#fourthPage">联系</a>
             </li>
           </ul>
         </div>
@@ -46,18 +50,72 @@
 
   <div id="fullpage">
     <div class="section">
-      <div class="text-center">dfdd</div>
+      <div class="container">
+        <div class="row">
+          <div class="offset-3">
+            <pre id="codeWrapper">
+            </pre>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="section">二</div>
     <div class="section">
-      <div class="slide">幻灯片 1</div>
-      <div class="slide">幻灯片 2</div>
+      <div class="container-fluid">
+        <h2 class="text-center">自我介绍</h2>
+        <div class="row">
+          <div class="col-md-6 text-center about">
+            <img src="./avatar.jpg" class="avatar" alt="avatar">
+            <p class="about-content">你好，我叫钱佳辉，努力成为一名合格的前端工程师。</p>
+          </div>
+
+          <div class="col-md-6 text-center skills">
+            <h3>技能树</h3>
+            <div class="row about-content">
+              <div class="col-4 text-center">
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Javascript</li>
+                  <li>HTTP</li>
+                  <li>TypeScript</li>
+                </ul>
+              </div>
+              <div class="col-4 text-center">
+                <ul>
+                  <li>Bootstrap</li>
+                  <li>Webpack</li>
+                  <li>Vue</li>
+                  <li>React</li>
+                  <li>Mini App</li>
+                </ul>
+              </div>
+              <div class="col-4 text-center">
+                <ul>
+                  <li>Git</li>
+                  <li>VS Code</li>
+                  <li>WebStorm</li>
+                  <li>Nodejs</li>
+                  <li>... ...</li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="section">
+      <div class="slide">作品集</div>
+      <div class="slide">作品集</div>
+    </div>
+    <div class="section"></div>
   </div>
 
   <script src="https://unpkg.com/jquery@3.4.1/dist/jquery.slim.min.js"></script>
   <script src="https://unpkg.com/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>  <script src="./main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>
+  <script src="./highlight/prism.js"></script>
+  <script src="./main.js"></script>
   <!-- <script src="//at.alicdn.com/t/font_1426886_gvrbnnlx7pk.js"></script> -->
 
 </body>
