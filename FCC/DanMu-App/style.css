@@ -12,16 +12,16 @@
   height: 440px;
   margin-top: 40px;
   border: 1px solid #efe;
-	animation: bgColor 15s infinite alternate;
+	animation: bgColor 8s infinite alternate;
 }
 
 @keyframes bgColor {
-  0% { background: rgba(177, 81, 49, 0.75); }
-	20% { background: rgba(0, 50, 107, .64); }
-	40% { background: rgba(145, 16, 222, .58); }
+  0% { background: rgba(177, 81, 49, 0.45); }
+	20% { background: rgba(0, 50, 107, .54); }
+	40% { background: rgba(145, 16, 222, .38); }
 	60% { background: rgba(255, 0, 59, .42); }
-	80% { background: rgba(12, 226, 255, .64); }
-	100% { background: rgba(92, 171, 95, .88); }
+	80% { background: rgba(12, 226, 255, .34); }
+	100% { background: rgba(92, 171, 95, .58); }
 }
 
 .barrage-form {

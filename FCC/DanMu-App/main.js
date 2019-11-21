@@ -62,11 +62,11 @@
         let barrage = {
           'text': this.barrageText.value ? this.barrageText.value.trim() : '',
           'color': '#' + (Math.random() * 0xffffff << 0).toString(16),
-          'fontSize': Math.floor(Math.random() * 15) + 10,
-          'isBold': (Math.random()  > 0.495 ? 1 : 0),
-          'positionY': Math.random(),
-          'speed': Math.random() * 10,
-          'isFillFont': (Math.random()  > 0.495 ? 1 : 0)
+          'fontSize': Math.floor(Math.random() * 8) + 20,
+          // 'isFill': (Math.random()  > 0.495 ? 1 : 0),
+          'opacity': Math.random() * 0.8 + 0.2, 
+          'positionY': Math.floor(Math.random() * this.canvas.height),
+          'speed': Math.random() * 2.6 + 1.4
         }
         if (!barrage.text) return
         this.sendBarrage(barrage)
@@ -80,23 +80,23 @@
         }
       }
 
-      this.cleanButton.onclick = function () {
+      this.cleanButton.onclick = () => {
         this.cleanScreen()
       }
     },
 
     // 将弹幕抽象成类
     Barrage: function (barrage, canvas) {
-      let {text, color, fontSize, isBold, positionY, speed, isFillFont} = barrage
+      let {text, color, opacity, fontSize, positionY, speed} = barrage
 
+      this.context = canvas.getContext('2d')
       this.text = text
       this.fontSize = fontSize
-      this.opacity = 0.3
+      this.opacity = opacity
       this.color = color
-      this.x = canvas.width
+      this.x = canvas.width + Math.random() * this.context.measureText(barrage.text).width
       this.y = positionY
       this.speed = speed
-      this.context = canvas.getContext('2d')
 
       if (this.y < this.fontSize) {
         this.y = this.fontSize
@@ -106,15 +106,16 @@
 
       this.draw = function () {
         this.context.strokeStyle = this.color
+        this.context.fillStyle = 'rgba(255, 255, 255,' + this.opacity + ')'
         this.context.font = 'bold ' + this.fontSize + 'px "microsoft yahei", sans-serif'
-        this.context.fillStyle = 'rgba(255,255,255,'+ this.opacity +')'
         this.context.fillText(this.text, this.x, this.y)
-        this.context.strokeText(this.text, this.x, this.y);
+        this.context.strokeText(this.text, this.x, this.y)
       }
     },
 
     // 将要发送的弹幕存起来
     storeBarrages: function (barrages) {
+      this.barrages = []
       this.barrages = barrages.map(barrage => new this.Barrage(barrage, this.canvas))
     },
 
@@ -122,7 +123,6 @@
     render: function () {
       this.context.clearRect(0, 0, this.canvas.width, this.canvas.height)
       this.barrages.forEach(barrage => {
-        console.log(this)
         if (barrage.x > -this.context.measureText(barrage.text).width) {
           barrage.x -= barrage.speed
           barrage.draw()
@@ -142,7 +142,6 @@
         let barrages = res.map(item => item.attributes)
         this.storeBarrages(barrages)
         this.render()
-        console.log(this.barrages)
       }).catch(error => {
         alert("弹幕加载失败！")
       })
@@ -152,15 +151,26 @@
     sendBarrage: function (barrage) {
       this.model.save(barrage).then(res => {
         this.barrageText.value = ''
-        this.drawBarrage(barrage)
+        this.barrages.unshift(new this.Barrage(barrage, this.canvas))
       }).catch(error => {
         alert("弹幕发射失败！")
       })
     },
 
-    // 清屏后显示最近的十个弹幕
+    // 清屏，当 this.barrages 为空时 render 函数会停止
     cleanScreen: function () {
-
+      let emptyBarrage = {
+        'text': '',
+        'color': 'rgba(255, 255, 255, 0)',
+        'fontSize': 0,
+        // 'isFill': (Math.random()  > 0.495 ? 1 : 0),
+        'opacity': 0, 
+        'positionY': 0,
+        'speed': 0.1
+      }
+      setTimeout(() => {
+        this.barrages = [new this.Barrage(emptyBarrage, this.canvas)]
+      }, 1500)
     }
 
   }
