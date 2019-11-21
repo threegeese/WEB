@@ -2,20 +2,20 @@
 <html lang="zh-Hans">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>弹幕</title>
   <link rel="shortcut icon" href="./favicon.png" type="image/png">
   <link rel="stylesheet" href="./style.css">
+  <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.15.0/dist/av-min.js"></script>
 </head>
 <body>
-  <div id="damu">
-    <div class="tv-screen"></div>
-    <div class="damu-form">
-      <input type="text" class="input" placeholder="发射点什么吧 (～﹃～)~zZ">
-      <button type="submit" class="btn-send">发 射</button>
-      <button type="reset" class="btn-clear">清 屏</button>
+  <div id="barrage">
+    <canvas class="tv-screen"></canvas>
+    <div class="barrage-form">
+      <input type="text" class="barrage-text" placeholder="发射点什么吧 (～﹃～)~zZ" maxlength="40">
+      <button type="submit" class="btn-send" title="别人也能看见你的弹幕哦">发 射</button>
+      <button type="reset" class="btn-clean" title="清屏后显示最近的十个弹幕">清 屏</button>
     </div>
   </div>
+  <script src="./main.js"></script>
 </body>
 </html>
