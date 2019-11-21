@@ -126,6 +126,8 @@
         if (barrage.x > -this.context.measureText(barrage.text).width) {
           barrage.x -= barrage.speed
           barrage.draw()
+        } else {
+          barrage.x = this.canvas.width + Math.random() * 10 * this.context.measureText(barrage.text).width
         }
       })
       this.raf = this.barrages.some(barrage => {
@@ -163,7 +165,6 @@
         'text': '',
         'color': 'rgba(255, 255, 255, 0)',
         'fontSize': 0,
-        // 'isFill': (Math.random()  > 0.495 ? 1 : 0),
         'opacity': 0, 
         'positionY': 0,
         'speed': 0.1
